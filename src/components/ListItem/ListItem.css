@@ -1,0 +1,35 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(254,255,219);
+}
+
+.list-item:not(:last-child) {
+    border-bottom: 1px solid rgba(60, 85, 107, 0.8);
+}
+
+.list-item__label {
+    font-size: 18px;
+}
+
+.list-item__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item__buttons button {
+    border: 0;
+    outline: none;
+    background-color: rgb(239,241,202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.btn-cookie, .btn-trash {
+    margin-right: 10px;
+}
